@@ -48,7 +48,11 @@ front=(front+1)%MAX_SIZE;
 }
 int search(int key)
 {
+if(isEmpty())
+{
 printf("queue is empty.cannot search.\n");
+return -1;
+}
 i=front;
 do
 {
