@@ -78,7 +78,7 @@ printf("circular queue:");
 i=front;
 do
 {
-printf("%d",queue[i]);
+printf("\t%d",queue[i]);
 i=(i+1)%MAX_SIZE;
 }
 while(i!=(rear+1)%MAX_SIZE);
