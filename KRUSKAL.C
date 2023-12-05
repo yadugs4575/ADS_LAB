@@ -1,3 +1,5 @@
+//minimum spanning Tree using kruskals algorithm
+
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
